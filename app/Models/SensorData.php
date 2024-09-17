@@ -16,6 +16,7 @@ class SensorData extends Model
 
     // Ocultar los campos created_at y updated_at en las respuestas JSON
     protected $hidden = [
+        'id',
         'created_at',
         'updated_at'
     ];
