@@ -11,5 +11,6 @@ class SensorData extends Model
         'sensor_name', // Add any other fields you want to allow for mass assignment
         // Other fillable fields here
         'temperature',
+        'timestamp',
     ];
 }
