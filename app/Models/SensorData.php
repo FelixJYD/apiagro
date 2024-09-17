@@ -13,4 +13,10 @@ class SensorData extends Model
         'temperature',
         'timestamp',
     ];
+
+    // Ocultar los campos created_at y updated_at en las respuestas JSON
+    protected $hidden = [
+        'created_at',
+        'updated_at'
+    ];
 }
